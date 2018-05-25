@@ -4,7 +4,7 @@ We will now turn our attention away from the NLTK library and work with our text
 
 ## Types vs. Tokens
 
-First, let's find out how many times a given word appears in the corpus. In this case (and all cases going forward), our text will be treated as a list of words. Therefore, we will use the 'count' function. We could just as easily do this with a text editor, but performing this in Python allows us to save it to a variable and then utilize this statistic in other calculations (for example, if we want to know what percentage of words in a corpus are 'lol', we would need a count of the 'lol's. In the next cell, type:
+First, let's find out how many times a given word appears in the corpus. In this case (and all cases going forward), our text will be treated as a list of words. Therefore, we will use the 'count' function. We could just as easily do this with a text editor, but performing this in Python allows us to save it to a variable and then utilize this statistic in other calculations (for example, if we want to know what percentage of words in a corpus are 'lol', we would need a count of the 'lol's). In the next cell, type:
 
 	text1.count("whale")
  
@@ -16,7 +16,9 @@ We see that "whale" occurs 906 times, but that seems a little low. Let's check o
 
 This gets at a distinction between **type** and **token**. "Whale" and "whale" are different types (as of now) because they do not match identically. Every instance of "whale" in the corpus is another **token** - it is an instance of the type, "whale." Therefore, there are 906 tokens of "whale" in our corpus. 
 
-Let's fix this by making all of the words lowercase. We will make a new list of words, and call it text1_tokens. We will fill this list with all the words in text1, but in their lowercase form. In this same step, we are going to do a tricky move, and only keep the words that are alphabetical (so no punctuation or numbers). We'll do this by passing over items we don't want, effectively just not adding them to the list. Type the following code into a new cell in your notebook. Pay special attention to the indentation, which must appear as below.
+Let's fix this by making all of the words lowercase. We will make a new list of words, and call it text1_tokens. We will fill this list with all the words in text1, but in their lowercase form. Python has a built-in function, 'lower()' that takes all letters and makes them lowercase. In this same step, we are going to do a kind of tricky move, and only keep the words that are alphabetical and pass over anything that is punctuation or numbers. There is a built-in function, 'isalpha()', that will allow is to save only those words that are made of letters. If 'isalpha' is true, we'll make the word lowercase, and keep the word. If not, we'll pass over it and move to the next one. 
+
+Type the following code into a new cell in your notebook. Pay special attention to the indentation, which must appear as below.
 
 ```python
 text1_tokens = []
@@ -30,7 +32,7 @@ for t in text1:
 
 ![code](../images/for_loop_tokens.png)
 	
-Another way to perform the same action more tersely is to use what's called a **list comprehension**:
+Another way to perform the same action more tersely is to use what's called a **list comprehension** a list comprehension is a shorter, faster way to write a for-loop, but is syntactically a little more difficult to read (for a human). But, in this case, it's much faster to process:
 
 ```python
 text1_tokens= [t.lower() for t in text1 if t.isalpha()]

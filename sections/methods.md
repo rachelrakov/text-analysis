@@ -12,15 +12,17 @@ Start by importing the NLTK library by typing:
 
 We will also need the matplotlib library later on, so import it now:
 
-`import matplotlib`
+	import matplotlib
+	
+Matplotlib is a library for making graphs. In the middle of this tutorial, we are going to make a dispersion plot of words in our texts. To see 
 
 Finally, because of a quirk of Jupyter notebooks, we need to specify that matplotlib should display its graphs in the notebook (as opposed to in a separate window), so we type this command (this is technically a Jupyter command, not Python):
 
-	`%matplotlib inline`
+	%matplotlib inline
 
 All three of these commands can be written in the same cell and run all at once (**Shift** + **Enter**) or in different cells. 
 
-![Image showing that the three lines given above should be written in a single cell in the JuPyther notebook, one after another](../images/imports.png)
+![Image showing that the three lines given above should be written in a single cell in the JuPyther notebook, one after another](https://github.com/DHRI-Curriculum/text-analysis/blob/incorporate-feedback/images/jupyter4.png)
 
 If you don't see an error when you run the notebook—that is, if nothing happens—you can move on to the next step.
 
@@ -30,6 +32,6 @@ Next we need to load all of the NLTK corpora into our program. Even though we do
 
 The pre-loaded NLTK texts should appear again. These are pre-formatted data sets. We will still have to do some minor processing, but having the data in this format saves us a few steps. At the end of this tutorial, we will make our own corpus. This is a special type of python object specific to NLTK (it isn't a string, list, or dictionary). Sometimes it will behave like a string, and sometimes like a list of words. How it is behaving is noted for each function below.
 
-![Image showing a second cell with the "from nltk.book import *" line and another line defining some text data](../images/nltkbook.png)
+![Image showing a second cell with the "from nltk.book import *" line and another line defining some text data](https://github.com/DHRI-Curriculum/text-analysis/blob/incorporate-feedback/images/jupyter5.png)
 
 Let's start by analyzing **Moby Dick**, which is text1 for NLTK.
