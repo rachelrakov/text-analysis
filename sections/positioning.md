@@ -8,4 +8,4 @@ A graph should appear with a tick mark everywhere that "whale" appears and every
 
 Try this with text2, *Sense and Sensibility*. Some relevant words are "marriage," "love," "home," "mother," "husband," "sister," and "wife." Pick a few to compare. (You can compare an unlimited number, but it's easier to read a few at a time.)
 
-NLTK has many more functions built-in, but some of the most powerful functions are related to cleaning, part-of-speech tagging, and other stages in the text analysis pipeline.
+NLTK has many more functions built-in, but some of the most powerful functions are related to cleaning, part-of-speech tagging, and other stages in the text analysis pipeline (where the pipeline refers to the process of loading, cleaning, and analyzing text).
