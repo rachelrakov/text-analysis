@@ -62,9 +62,11 @@ Yours will look a little different, but the same interface. Click on the 'all' o
 
 Return to your Jupyter Notebook and type:
 
-`from nltk.book import *`
+```python
+from nltk.book import *
+```
 
-A list of books should appear. If this happens great! If not, return to the downloader to make sure everything is ok.
+A list of books should appear. If this happens, great! If not, return to the downloader to make sure everything is ok.
 
 Close this Notebook without saving - the only purpose was to check if we have the appropriate packages installed.
 
