@@ -2,19 +2,19 @@
 
 This tutorial will give a brief overview of the considerations and tools involved in basic text analysis with Python. By completing this tutorial, you will have a general sense of how to turn text into data using the Python package, NLTK. You will also be able to take publicly available text files and transform them into a corpus that you can perform your own analysis on. Finally, you will have some insight into the types of questions that can be addressed with text analysis. 
 
-# Cloning the repository
+## Cloning the repository
 
 Before getting started, clone [this repository]() to your local machine. Instructions for cloning Git repositories can be found [here](https://github.com/DHRI-Curriculum/git/blob/master/sections/cloning.md).
 
-# Getting Started
+## Setup and installation
 
-You already installed the [Anaconda](https://www.anaconda.com/download/) distribution of Python 3. You will need nltk and matplotlib to complete this tutorial, both packages come installed with Anaconda. To check to be sure you have them, open a new Jupyter Notebook (or any IDE to run Python).
+If you have not already installed the [Anaconda](https://www.anaconda.com/download/) distribution of Python 3, please do so. You will also need nltk and matplotlib to complete this tutorial. Both packages come installed with Anaconda. To check to be sure you have them, open a new Jupyter Notebook (or any IDE to run Python).
 
 Find Anaconda on your computer, Launch a Jupyter Notebook. 
 
 ![jupyter](https://github.com/michellejm/NLTK_DHRI/blob/master/Images/jupyter.png)
 
-It will open in the browser. All of the directories (folders) in your home directory will appear. For now, select 'New' >> Python3 in the upper right corner.
+It will open in the browser. All of the directories (folders) in your home directory will appear - we'll get to that later. For now, select 'New' >> Python3 in the upper right corner.
 
 ![jupyter](https://github.com/michellejm/NLTK_DHRI/blob/master/Images/jupyter1.png)
 
@@ -22,19 +22,17 @@ A blank page with an empty box should appear.
 
 ![jupyter](https://github.com/michellejm/NLTK_DHRI/blob/master/Images/jupyter2.png)
 
-We want to double check that everything is installed, so first we will check for the packages we will definitely use. In the box, type:
+
+In the box, type:
 
 `import nltk`
 
 `import matplotlib`
 
-Press **Shift** + **Enter** to run the cell (or click run at the top of the page). 
+Press **Shift** + **Enter** to run the cell (or click run at the top of the page). Don't worry too much about what this is doing - that will be explained later in this tutorial. For now, we just want to make sure the packages we will need are installed.
 
 ![jupyter](https://github.com/michellejm/NLTK_DHRI/blob/master/Images/jupyter3.png)
 
-If nothing happens, they are installed and you are ready to move on! If you get an error message, either you have a typo or they are not installed. First double check your spelling, then revisit the [installation instructions LINK TO INSTALL](). 
-
-<!-- 
 If nothing happens, they are installed and you are ready to move on! If you get an error message, either you have a typo or they are not installed. If it is the later, open the command line and type:
 
 `pip install nltk`
@@ -53,10 +51,8 @@ The NLTK downloader should appear. Please install all of the packages. If you ar
 Yours will look a little different, but the same interface. Click on the 'all' option and then 'Download'. Once they all trun green, you can close the Downloader dialogue box.
 
 ![nltk downloader](https://github.com/michellejm/NLTK_DHRI/blob/master/Images/nltk.png)
- -->
 
-
-In the next cell of your Jupyter Notebook, type:
+Return to your Jupyter Notebook and type:
 
 `from nltk.book import *`
 
