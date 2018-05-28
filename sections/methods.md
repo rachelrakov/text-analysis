@@ -32,7 +32,7 @@ jupyter notebook
 
 If it's your first time opening the notebook, you may be prompted to enter a URL into your browser. Copy out the URL and paste it into the Firefox or Google Chrome search bar.
 
-Finally, find the notebook file and open it. It should be called `TextAnalysis.ipynb`. You will use this file for reference in case you get stuck in the next few sections, so keep it open.
+Finally, in the Jupyter Notebook file browser, find the notebook file and open it. It should be called `TextAnalysis.ipynb`. You will use this file for reference in case you get stuck in the next few sections, so keep it open.
 
 Return to the Jupyter Home Tab in your Browser (or Launch the Jupyter Notebook again), and start a New Python3 Notebook using the `New` button in the upper right corner.
 
@@ -58,7 +58,7 @@ Finally, because of a quirk of Jupyter notebooks, we need to specify that matplo
 
 All three of these commands can be written in the same cell and run all at once (`Shift + Enter`) or in different cells.
 
-![Image showing that the three lines given above should be written in a single cell in the Jupyter notebook, one after another](https://github.com/DHRI-Curriculum/text-analysis/blob/incorporate-feedback/images/jupyter4.png)
+![Image showing that the three lines given above should be written in a single cell in the Jupyter notebook, one after another](../images/imports.png)
 
 If you don't see an error when you run the notebook—that is, if nothing happens—you can move on to the next step.
 
@@ -70,9 +70,8 @@ from nltk.book import *
 
 The pre-loaded NLTK texts should appear again. These are preformatted data sets. We will still have to do some minor processing, but having the data in this format saves us a few steps. At the end of this tutorial, we will make our own corpus. This is a special type of python object specific to NLTK (it isn't a string, list, or dictionary). Sometimes it will behave like a string, and sometimes like a list of words. How it is behaving is noted for each function as we try it out.
 
-![Image showing a second cell with the "from nltk.book import *" line and another line defining some text data](https://github.com/DHRI-Curriculum/text-analysis/blob/incorporate-feedback/images/jupyter5.png)
+![Image showing a second cell with the "from nltk.book import *" line and another line defining some text data](../images/nltkbook.png)
 
 Let's start by analyzing **Moby Dick**, which is text1 for NLTK.
-
 
 [<<< Previous](data_cleaning.md) | [Next >>>](searching.md)

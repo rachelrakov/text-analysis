@@ -19,7 +19,7 @@ By the end of this workshop, you will be able to:
 
 [Overview](sections/overview.md)  
 [Text as data](sections/text_as_data.md)  
-[Data cleaning](sections/data_cleaning.md)  
+[Cleaning and normalizing](sections/data_cleaning.md)  
 [NLTK methods with the NLTK Corpus](sections/methods.md)  
 [Searching for words](sections/searching.md)  
 [Positioning Words](sections/positioning.md)  
