@@ -19,15 +19,15 @@ By the end of this workshop, you will be able to:
 
 [Overview](sections/overview.md)  
 [Text as data](sections/text_as_data.md)  
-[Data cleaning](data_cleaning.md)  
+[Data cleaning](sections/data_cleaning.md)  
 [NLTK methods with the NLTK Corpus](sections/methods.md)  
 [Searching for words](sections/searching.md)  
 [Positioning Words](sections/positioning.md)  
 [Built-in Python functions](sections/built-in.md)  
 [Data cleaning](sections/cleaning.md)  
-[Make your own corpus](make_corpus.md)  
-[Part-of-speech tagging](conclusion.md)  
-[Conclusion](conclusion.md)  
+[Make your own corpus](sections/make_corpus.md)  
+[Part-of-speech tagging](sections/conclusion.md)  
+[Conclusion](sections/conclusion.md)  
 
 -----
 

@@ -1,3 +1,5 @@
+[<<< Previous](methods.md) | [Next >>>](positioning.md)
+
 # Searching for words
 
 The first function we will look at is `concordance`. "Concordance" in this context means the characters on either side of the word. Our text is behaving like a string. As discussed in the [Python tutorial LINK](), Python does not *evaluate* strings, so it just counts the number of characters on either side. By default, this is 25 characters on either side of our target word (including spaces). 
@@ -25,3 +27,5 @@ Let's expand from novels for a minute and take a look at the NLTK Chat Corpus. I
 The resulting list is a lot of greetings, indicating that "lol" probably has more of a [phatic function](http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100321840). Phatic language is language primarily for communicating social closeness. Phatic words stand in contract to semantic ones, which contribute meaning to the utterance. 
 
 If you are interested in this type of analysis, take a look at the `common_contexts` function in the [NLTK book](https://www.nltk.org/book/) or in the [NLTK docs])https://www.nltk.org/).
+
+[<<< Previous](methods.md) | [Next >>>](positioning.md)

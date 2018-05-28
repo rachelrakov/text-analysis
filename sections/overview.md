@@ -1,3 +1,5 @@
+[<<< Previous](../README.md) | [Next >>>](text_as_data.md)
+
 # Overview
 
 This tutorial will give a brief overview of the considerations and tools involved in basic text analysis with Python. By completing this tutorial, you will have a general sense of how to turn text into data using the Python package, NLTK. You will also be able to take publicly available text files and transform them into a corpus that you can perform your own analysis on. Finally, you will have some insight into the types of questions that can be addressed with text analysis. 
@@ -25,28 +27,34 @@ A blank page with an empty box should appear.
 
 In the box, type:
 
-`import nltk`
-
-`import matplotlib`
+```python
+import nltk
+import matplotlib
+```
 
 Press **Shift** + **Enter** to run the cell (or click run at the top of the page). Don't worry too much about what this is doing - that will be explained later in this tutorial. For now, we just want to make sure the packages we will need are installed.
 
 ![jupyter](https://github.com/michellejm/NLTK_DHRI/blob/master/Images/jupyter3.png)
 
-If nothing happens, they are installed and you are ready to move on! If you get an error message, either you have a typo or they are not installed. If it is the later, open the command line and type:
+If nothing happens, they are installed and you are ready to move on! If you get an error message, either you have a typo or they are not installed. If it is the latter, open the command line and type:
 
-`pip install nltk`
-
-`pip install matplotlib`
+```python
+pip install nltk
+pip install matplotlib
+```
 
 
 Now we need to install the nltk corpus. This is very large and may take some time if you are on a weak connection. 
 
 In the next cell, type:
 
-`nltk.download()` and run the cell.
+```python
+nltk.download()
+```
 
-The NLTK downloader should appear. Please install all of the packages. If you are short on time, focus on 'book' for this tutorial, and come back to this step. 
+and run the cell.
+
+The NLTK downloader should appear. Please install all of the packages. If you are short on time, focus on book" for this tutorial—you can download the other packages at another time for later use.
 
 Yours will look a little different, but the same interface. Click on the 'all' option and then 'Download'. Once they all trun green, you can close the Downloader dialogue box.
 
@@ -59,3 +67,5 @@ Return to your Jupyter Notebook and type:
 A list of books should appear. If this happens great! If not, return to the downloader to make sure everything is ok.
 
 Close this Notebook without saving - the only purpose was to check if we have the appropriate packages installed.
+
+[<<< Previous](../README.md) | [Next >>>](text_as_data.md)

@@ -1,3 +1,5 @@
+[<<< Previous](built-in.md) | [Next >>>](make_corpus.md)
+
 # Making your own corpus: data cleaning
 
 Thus far, we have been asking questions that take stopwords and grammatical features into account. For the most part, we want to exclude these features since they don't actually contribute very much semantic content to our models. Therefore, we will:
@@ -144,3 +146,6 @@ print(my_list)
 ```
 
 You can obviously do this with much larger lists and even compare entire novels if you wish, though it would take a while with this approach. You can use this to get similarity measures and answer related questions. 
+
+
+[<<< Previous](built-in.md) | [Next >>>](make_corpus.md)

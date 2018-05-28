@@ -1,3 +1,5 @@
+[<<< Previous](positioning.md) | [Next >>>](cleaning.md)
+
 # Built-in Python functions
 
 We will now turn our attention away from the NLTK library and work with our text using the built-in Python functions—the ones that come included with the Python language, rather than the NLTK library.
@@ -91,3 +93,6 @@ If we wanted to perform the same set of steps with *Sense and Sensibility*, woul
 3. Calculate lexical density by dividing the length of the set of the slice by the length of the slice.
 
 After taking these steps to find Austen's lexical density, we could compare Melville's range of vocabulary to Austen's.
+
+
+[<<< Previous](positioning.md) | [Next >>>](cleaning.md)

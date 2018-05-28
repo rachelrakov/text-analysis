@@ -1,3 +1,5 @@
+[<<< Previous](make_corpus.md) | [Next >>>](conclusion.md)
+
 ### Part-of-Speech Tagging
 
 *Note that we are going to use the pre-cleaned, `dq_text` object for this section.*
@@ -29,7 +31,7 @@ print(dq_tagged[:10])
 
 This is a list of ordered tuples. (A tuple is like a list, but can't be changed once it is created.) Each element in the list is a pairing of `(word, POS-tag)`. (Tuples are denoted with parentheses, rather than square brackets.) This is great, but it is very detailed. I would like to know how many Nouns, Verbs, and Adjectives I have. 
 
-First, I'll make an empty dictionary to hold my results. Then I will go through this list of tuples and count the number of times each tag appears. Every time I encounter a new tag, I'll add it to a dictionary and then increment by one every time I encounter that tag again. Let's see what that looks like in code:
+First, I'll make an epty dictionary to hold my results. Then I will go through this list of tuples and count the number of times each tag appears. Every time I encounter a new tag, I'll add it to a dictionary and then increment by one every time I encounter that tag again. Let's see what that looks like in code:
 
 ```python
 tag_dict = {}
@@ -55,3 +57,5 @@ tag_dict = OrderedDict(sorted(tag_dict.items(), key=lambda t: t[1], reverse=True
 ```
 
 Now check out what we have. It looks like NN is the most common tag, we can look up what that is back at the [Penn Tree Bank](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html). Looks like that is a Noun, singular or mass. Great! This information will likely help us with genre classification (as you will do in the Machine Learning tutorial), or identifying the author of a text, or a variety of other functions.
+
+[<<< Previous](make_corpus.md) | [Next >>>](conclusion.md)

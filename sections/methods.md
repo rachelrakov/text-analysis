@@ -1,3 +1,5 @@
+[<<< Previous](data_cleaning.md) | [Next >>>](searching.md)
+
 ### NLTK Methods with the NLTK Corpus
 
 *All of the code for this section is in a Jupyter Notebook in the GitHub Repository. I encourage you to follow along by retyping all of the code, but if you get lost, or want another reference, the code is there as well. To open it in a Jupyter Notebook, Launch the Notebook and then through the file list that appears in your browser, navigate to where you saved the file.*
@@ -35,3 +37,6 @@ The pre-loaded NLTK texts should appear again. These are pre-formatted data sets
 ![Image showing a second cell with the "from nltk.book import *" line and another line defining some text data](https://github.com/DHRI-Curriculum/text-analysis/blob/incorporate-feedback/images/jupyter5.png)
 
 Let's start by analyzing **Moby Dick**, which is text1 for NLTK.
+
+
+[<<< Previous](data_cleaning.md) | [Next >>>](searching.md)

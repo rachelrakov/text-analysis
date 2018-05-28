@@ -1,3 +1,5 @@
+[<<< Previous](cleaning.md) | [Next >>>](pos_tagging.md)
+
 ### Make Your Own Corpus
 
 Now that we have seen and implemented a series of text analysis techniques, let's go to the Internet to find a new text. You could just as easily use a txt file that is on your computer (say you have a txt copy of the [Hunger Games LINK TO GIT](LINK), for example. Or historic newspapers, or Supreme Court proceedings, and so on. Here, we will use [Project Gutenberg](http://www.gutenberg.org). Project Gutenberg is an archive of public domain written works, available in a wide variety of formats, including .txt. You can download these to your computer or access them via the url. We'll use the url method. We found *Don Quixote* in the archive, and will work with that.
@@ -103,3 +105,6 @@ dq_clean = [wordnet_lemmatizer.lemmatize(t) for t in dq_clean]
 ```
 
 From here, you could perform all of the operations that we did after cleaning our text in the previous session. Instead, we will perform another type of analysis: part-of-speech (POS) tagging. 
+
+
+[<<< Previous](cleaning.md) | [Next >>>](pos_tagging.md)

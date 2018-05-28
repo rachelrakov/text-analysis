@@ -1,3 +1,5 @@
+[<<< Previous](text_as_data.md) | [Next >>>](methods.md)
+
 # Data Cleaning 
 
 Generally, however, our questions are more about topics rather than writing style. So, once we have a corpus (whether that is one text or millions), we usually want to clean and normalize it. There are 3 terms we are going to need:
@@ -20,3 +22,6 @@ Again, this will be covered more in depth in the Machine Learning Tutorial, but 
 ## Words into Numbers
 
 In the next section, we are going to go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations. This is just scratching the surface, but should give you an idea of what is possible beyond just counting. 
+
+
+[<<< Previous](text_as_data.md) | [Next >>>](methods.md)
