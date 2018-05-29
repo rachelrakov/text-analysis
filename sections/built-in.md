@@ -29,11 +29,9 @@ Type the following code into a new cell in your notebook. Pay special attention 
 ```python
 text1_tokens = []
 for t in text1:
-	if t.isalpha:
-		t.lower()
+	if t.isalpha():
+		t = t.lower()
 		text1_tokens.append(t)
-	else:
-		pass
 ```		
 
 ![code](../images/for_loop_tokens.png)
