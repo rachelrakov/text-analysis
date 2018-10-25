@@ -1,6 +1,6 @@
 [<<< Previous](make_corpus.md) | [Next >>>](conclusion.md)
 
-### Part-of-Speech Tagging
+# Part-of-Speech Tagging
 
 *Note that we are going to use the pre-cleaned, `dq_text` object for this section.*
 
