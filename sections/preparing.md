@@ -72,6 +72,6 @@ The pre-loaded NLTK texts should appear again. These are preformatted data sets.
 
 ![Image showing a second cell with the "from nltk.book import *" line and another line defining some text data](../images/nltkbook.png)
 
-Let's start by analyzing **Moby Dick**, which is text1 for NLTK.
+Let's start by analyzing *Moby Dick*, which is text1 for NLTK.
 
 [<<< Previous](data_cleaning.md) | [Next >>>](searching.md)
