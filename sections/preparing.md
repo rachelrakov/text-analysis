@@ -1,6 +1,6 @@
 [<<< Previous](data_cleaning.md) | [Next >>>](searching.md)
 
-# NLTK methods with the NLTK Corpus
+# NLTK Methods with the NLTK Corpus
 
 All of the code for this section is in a Jupyter Notebook in the GitHub repository. I encourage you to follow along by retyping all of the code, but if you get lost, or want another reference, the code is there as well. 
 
