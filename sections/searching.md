@@ -36,6 +36,6 @@ text5.similar("lol")
 
 The resulting list is a lot of greetings, indicating that "lol" probably has more of a [phatic function](http://www.oxfordreference.com/view/10.1093/oi/authority.20110803100321840). Phatic language is language primarily for communicating social closeness. Phatic words stand in contrast to semantic words, which contribute meaning to the utterance.
 
-If you are interested in this type of analysis, take a look at the `common_contexts` function in the [NLTK book](https://www.nltk.org/book/) or in the [NLTK docs])https://www.nltk.org/).
+If you are interested in this type of analysis, take a look at the `common_contexts` function in the [NLTK book](https://www.nltk.org/book/) or in the [NLTK docs](https://www.nltk.org/).
 
 [<<< Previous](preparing.md) | [Next >>>](positioning.md)
