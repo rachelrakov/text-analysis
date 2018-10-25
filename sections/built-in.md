@@ -1,6 +1,6 @@
 [<<< Previous](positioning.md) | [Next >>>](cleaning.md)
 
-# Built-in Python functions
+# Built-In Python Functions
 
 We will now turn our attention away from the NLTK library and work with our text using the built-in Python functions—the ones that come included with the Python language, rather than the NLTK library.
 
