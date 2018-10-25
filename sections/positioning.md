@@ -1,6 +1,6 @@
 [<<< Previous](searching.md) | [Next >>>](built-in.md)
 
-# Positioning words
+# Positioning Words
 
 In many ways, `concordance` and `similar` are heightened word searches that tell us something about what is happening near the target words. Another metric we can use is to visualize where the words appear in the text. In the case of *Moby Dick*, we want to compare where "whale" and "monster" appear throughout the text. In this case, the text is functioning as a list of words, and will make a mark where each word appears, offset from the first word. We will *pass* this *function* a *list* of *strings* to plot. This will likely help us develop a visual of the story - where the whale goes from being a whale to being a monster to being a whale again. In the next cell, type:
 
