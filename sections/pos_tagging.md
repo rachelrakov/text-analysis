@@ -6,7 +6,7 @@
 
 POS tagging is going through a text and identifying which part of speech each word belongs to (i.e., Noun, Verb, or Adjective). Every word belongs to a part of speech, but some words can be confusing.
 
-- Floyd is happy .
+- Floyd is happy.
 - Happy is a state of being.
 - Happy has five letters.
 - I'm going to Happy Cat tonight.
