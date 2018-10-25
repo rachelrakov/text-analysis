@@ -1,6 +1,6 @@
 [<<< Previous](text_as_data.md) | [Next >>>](preparing.md)
 
-# Cleaning and normalizing
+# Cleaning and Normalizing
 
 Generally, however, our questions are more about topics rather than writing style. So, once we have a corpus—whether that is one text or millions—we usually want to clean and normalize it. There are three terms we are going to need:
 
