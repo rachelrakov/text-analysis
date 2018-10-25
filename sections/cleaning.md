@@ -1,4 +1,4 @@
-[<<< Previous](built-in.md) | [Next >>>](make_corpus.md)
+c[<<< Previous](built-in.md) | [Next >>>](make_corpus.md)
 
 # Making your own corpus: data cleaning
 
@@ -82,13 +82,13 @@ len(set(text1_clean))
 
 This set should be much smaller than the set before we lemmatized. Now if we were to calculate lexical density, we would be looking at how many word stems with semantic content are represented in *Moby Dick*, which gets at a different question than our first analysis of lexical density.
 
-Now let's have a look at the words Melville uses in Moby Dick. We'd like to look at all of the *types*, but not necessarily all of the *tokens.* We will order this set so that it is in an order we can handle. In the next cell, type:
+Now let's have a look at the words Melville uses in *Moby Dick*. We'd like to look at all of the *types*, but not necessarily all of the *tokens.* We will order this set so that it is in an order we can handle. In the next cell, type:
 
 ```python
 sorted(set(text1_tokens))
 ```
 
-A list of all the words in Moby Dick should appear. The list begins with 'a', which we might have expected to be removed in the stemming process, and some words we wouldn't have expected, such as "abbreviate" and "abbreviation". As we mentioned before, lemmatizing looks up the dictionary form of the word, and these would be different entries. A better example is with 'meaning' and 'meanness.' A lemmatizer would retain these two as separate words. A stemmer would not. We will stick with the output of the Lemmatizer, but just for illustration, we can try it out with a stemmer instead (Porter is the most common).  The code to implement this and view the output is below:
+A list of all the words in *Moby Dick* should appear. The list begins with 'a', which we might have expected to be removed in the stemming process, and some words we wouldn't have expected, such as "abbreviate" and "abbreviation". As we mentioned before, lemmatizing looks up the dictionary form of the word, and these would be different entries. A better example is with 'meaning' and 'meanness.' A lemmatizer would retain these two as separate words. A stemmer would not. We will stick with the output of the Lemmatizer, but just for illustration, we can try it out with a stemmer instead (Porter is the most common).  The code to implement this and view the output is below:
 
 ```python
 from nltk.stem import PorterStemmer
