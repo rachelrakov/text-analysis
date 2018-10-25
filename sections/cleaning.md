@@ -1,6 +1,6 @@
 c[<<< Previous](built-in.md) | [Next >>>](make_corpus.md)
 
-# Making your own corpus: data cleaning
+# Making Your Own Corpus: Data Cleaning
 
 Thus far, we have been asking questions that take stopwords and grammatical features into account. For the most part, we want to exclude these features since they don't actually contribute very much semantic content to our models. Therefore, we will:
 
