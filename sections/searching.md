@@ -10,7 +10,7 @@ In the Jupyter Notebook, type:
 text1.concordance("whale")
 ```
 
-The output shows us the 25 characters on either side of the word "whale" in *ModyDick**. Let's try this with another word, "love." Just replace the word "whale" with "love," and we get the contexts in which Melville uses "love" in *Moby Dick*. `Concordance` is used (behind the scenes) for several other functions, including `similar` and `common_contexts`.
+The output shows us the 25 characters on either side of the word "whale" in *Moby Dick*. Let's try this with another word, "love." Just replace the word "whale" with "love," and we get the contexts in which Melville uses "love" in *Moby Dick*. `Concordance` is used (behind the scenes) for several other functions, including `similar` and `common_contexts`.
 
 Let's now see which words appear in similar contexts as the word "love." NLTK has a built-in function for this as well: `similar`.
 
