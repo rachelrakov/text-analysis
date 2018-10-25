@@ -56,7 +56,7 @@ Just for comparison, check out how many words were in "text1" - before we remove
 len(text1)
 ```
 
-We see there are over 218,000 words in Moby Dick (including metadata). But this is the number of words total—we want to know the number of unique words. That is, we want to know how many *types*, not just how many tokens.
+We see there are over 218,000 words in *Moby Dick* (including metadata). But this is the number of words total—we want to know the number of unique words. That is, we want to know how many *types*, not just how many tokens.
 
 In order to get unique words, rather than just all words in general, we will make a **set** from the list. Sets in Python work just like they do in math, it's all the unique values, with any duplicate items removed.
 
@@ -66,7 +66,7 @@ So let's find out the length of our set. just like in math, we can also nest our
 len(set(text1_tokens))
 ```
 
-Great! Now we can calculate the **lexical density** of Moby Dick. Statistical studies have shown that lexical density (the number of unique words per total words) is a [good metric to approximate lexical diversity](http://www.pjos.org/index.php/LWPL/article/viewFile/2273/1848)—the range of vocabulary an author uses. For our first pass at lexical density, we will simply divide the number of unique words by the total number of words:
+Great! Now we can calculate the **lexical density** of *Moby Dick*. Statistical studies have shown that lexical density (the number of unique words per total words) is a [good metric to approximate lexical diversity](http://www.pjos.org/index.php/LWPL/article/viewFile/2273/1848)—the range of vocabulary an author uses. For our first pass at lexical density, we will simply divide the number of unique words by the total number of words:
 
 ```python
 len(set(text1_tokens))/len(text1_tokens)
