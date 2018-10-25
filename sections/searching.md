@@ -1,6 +1,6 @@
 [<<< Previous](preparing.md) | [Next >>>](positioning.md)
 
-# Searching for words
+# Searching For Words
 
 The first function we will look at is `concordance`. "Concordance" in this context means the characters on either side of the word. Our text is behaving like a string. As discussed in the [Python tutorial LINK](), Python does not *evaluate* strings, so it just counts the number of characters on either side. By default, this is 25 characters on either side of our target word (including spaces). 
 
