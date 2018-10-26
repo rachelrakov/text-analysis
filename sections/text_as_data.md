@@ -2,7 +2,7 @@
 
 # Text as Data
 
-When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond *Moby Dick*" And yet, more and more, text is data. Whether it is Moby Dick, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
+When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "*Moby Dick*." And yet, more and more, text is data. Whether it is Moby Dick, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
 
 ## Corpora
 
