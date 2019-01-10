@@ -36,7 +36,7 @@ First, I'll make an empty dictionary to hold my results. Then I will go through 
 ```python
 tag_dict = {}
 #for every word/tag combo in my list, 
-for (word, tag) in dq_text:
+for (word, tag) in dq_tagged:
     if tag in tag_dict: 
         tag_dict[tag]+=1
     else:
