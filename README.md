@@ -20,7 +20,7 @@ By the end of this workshop, you will be able to:
 [Overview](sections/overview.md)  
 [Text as Data](sections/text_as_data.md)  
 [Cleaning and Normalizing](sections/data_cleaning.md)  
-[NLTK Methods with the NLTK Corpus](sections/methods.md)  
+[NLTK Methods with the NLTK Corpus](sections/preparing.md)  
 [Searching For Words](sections/searching.md)  
 [Positioning Words](sections/positioning.md)  
 [Built-In Python Functions](sections/built-in.md)  
